@@ -1,6 +1,7 @@
 # Social Network Parser
 Simple parser that takes info from file "links.csv" and analyze all companies from it.
 ### CSV file format
+```
 +--------------------+--------------------+---------------------+---------------------+<br />
 |    Company Name    |     Twitter ID     |     Facebook ID     |   Wikipedia page    |<br />
 +--------------------+--------------------+---------------------+---------------------+<br />
@@ -9,6 +10,7 @@ Simple parser that takes info from file "links.csv" and analyze all companies fr
 |       Cisco        |         -          |        Cisco        |     Cisco_Sysetms   |<br />
 +--------------------+--------------------+---------------------+---------------------+<br />
 |                    |                    |                     |                     |<br />
+```
 
 If there no links for company (like IBM have no Facebook account or Cisco has no Twitter account) you must add an '-' symbol
 
